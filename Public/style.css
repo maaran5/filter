@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+    animation: an 10s infinite;
+    margin-bottom: 20px;
+}
+@keyframes an{
+    0%{
+        color: aqua;
+    }
+    50%{
+        color:blue;
+    }
+    100%{
+        color: red;
+    }
+}
+.form{
+    border: none;
+}
+.button{
+margin-bottom: 20px;
+}
+#search{
+    width: 50%;
+}
+.table{
+height: 40px;
+border: 1px solid black;
+}
+
